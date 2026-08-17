@@ -1,0 +1,95 @@
+# ═══════════════════════════════════════════
+# KiCad
+# ═══════════════════════════════════════════
+
+# Fichiers de sauvegarde automatique
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.tmp
+
+# Dossiers de sauvegarde générés par KiCad
+*-backups/
+fp-info-cache
+
+# Fichiers de verrouillage (session en cours)
+*.lck
+~lock*
+
+# Cache des empreintes 3D téléchargées (si vous utilisez des libs externes)
+3d-cache/
+
+# Fichiers de sortie générés (à régénérer, pas à versionner)
+*.pos
+gerber/
+plot/
+*-gerbers/
+
+# Netlist temporaire
+*.net.tmp
+
+# Anciens formats de sauvegarde (KiCad < 6)
+*.bak
+
+# ═══════════════════════════════════════════
+# CAD 3D — fichiers temporaires/verrouillage
+# ═══════════════════════════════════════════
+
+# SolidWorks
+*.SLDPRT.lck
+~$*.sldprt
+~$*.sldasm
+
+# FreeCAD
+*.FCStd.lock
+*.FCBak
+
+# Fusion 360 (cloud — pas de fichiers projet locaux normalement,
+# mais au cas où des exports locaux traînent)
+*.f3d.lock
+
+# Blender
+*.blend1
+*.blend2
+
+# Fichiers temporaires génériques de sauvegarde CAD
+*~
+*.swp
+
+# ═══════════════════════════════════════════
+# Système d'exploitation
+# ═══════════════════════════════════════════
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ═══════════════════════════════════════════
+# Éditeurs / IDE
+# ═══════════════════════════════════════════
+
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ═══════════════════════════════════════════
+# Divers
+# ═══════════════════════════════════════════
+
+# Archives temporaires
+*.zip.tmp
+
+# Logs
+*.log
