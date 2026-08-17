@@ -1,0 +1,148 @@
+# ─────────────────────────────────────────────
+# KiCad — fichiers projet
+# ─────────────────────────────────────────────
+*.kicad_pro     binary
+*.kicad_prl     binary
+*.kicad_sch     binary
+*.kicad_pcb     binary
+*.kicad_wks     binary
+*.kicad_mod     binary
+*.kicad_sym     binary
+*.kicad_dru     binary
+
+# Anciens formats (KiCad < 6)
+*.sch           binary
+*.lib           binary
+*.dcm           binary
+*.mod           binary
+*.brd           binary
+*.pro           binary
+*.net           binary
+
+# Bibliothèques / footprints
+*.pretty        binary
+*.3dshapes      binary
+
+# ─────────────────────────────────────────────
+# Modèles 3D — formats d'échange standards
+# ─────────────────────────────────────────────
+*.step          binary
+*.stp            binary
+*.wrl            binary
+*.iges           binary
+*.igs            binary
+*.stl            binary
+*.obj            binary
+*.fbx            binary
+*.dae            binary
+*.3ds            binary
+*.x3d            binary
+*.ply            binary
+*.gltf           binary
+*.glb            binary
+*.usd            binary
+*.usda           binary
+*.usdz           binary
+
+# ─────────────────────────────────────────────
+# CAD 3D — logiciels natifs
+# ─────────────────────────────────────────────
+
+# Autodesk Fusion 360
+*.f3d           binary
+*.f3z           binary
+
+# Autodesk Inventor
+*.ipt            binary
+*.iam            binary
+*.idw            binary
+*.ipn            binary
+
+# SolidWorks
+*.sldprt        binary
+*.sldasm        binary
+*.slddrw        binary
+*.sldlfp        binary
+
+# Onshape (exports locaux — Onshape lui-même est cloud, pas de format natif local)
+*.onshape       binary
+
+# FreeCAD
+*.FCStd         binary
+*.FCStd1        binary
+*.FCBak         binary
+
+# Solid Edge
+*.par            binary
+*.asm            binary
+*.psm            binary
+*.pwd            binary
+
+# CATIA
+*.CATPart       binary
+*.CATProduct    binary
+*.CATDrawing    binary
+
+# Rhino / Grasshopper
+*.3dm           binary
+*.gh             binary
+
+# Blender
+*.blend         binary
+*.blend1        binary
+
+# SketchUp
+*.skp            binary
+
+# AutoCAD (2D, souvent lié aux projets CAD/PCB)
+*.dwg            binary
+*.dxf            binary
+
+# ─────────────────────────────────────────────
+# Fabrication (gerbers / perçage)
+# ─────────────────────────────────────────────
+*.gbr             binary
+*.gbl             binary
+*.gtl             binary
+*.gbs             binary
+*.gts             binary
+*.gbo             binary
+*.gto             binary
+*.gbp             binary
+*.gtp             binary
+*.gko             binary
+*.drl             binary
+*.pos             binary
+*.zip             binary
+
+# ─────────────────────────────────────────────
+# Images / médias
+# ─────────────────────────────────────────────
+*.png             binary
+*.jpg             binary
+*.jpeg            binary
+*.gif             binary
+*.bmp             binary
+*.tiff            binary
+*.tga             binary
+*.exr             binary
+*.iff             binary
+*.ico             binary
+*.svg             binary
+*.mp4             binary
+*.mov             binary
+*.avi             binary
+*.mkv             binary
+
+# ─────────────────────────────────────────────
+# Documents
+# ─────────────────────────────────────────────
+*.pdf            binary
+*.xlsx           binary
+*.docx           binary
+
+# ─────────────────────────────────────────────
+# Backups KiCad
+# ─────────────────────────────────────────────
+*.bak            binary
+*-bak            binary
