@@ -542,7 +542,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Downloads/Keyboard/",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Keyboard V1.step",
